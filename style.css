@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+}
+#logo{
+	position: absolute;
+	top: 200px;
+	left: 800px;
+	padding: 0;
+}
+#searchbar {
+	position: absolute;
+	top: 325px;
+	left: 670px;
+	width: 550px;
+	height: 30px;
+	font-size: 20px;
+}
+#googlesearch{
+	position: absolute;
+	top: 400px;
+	left: 800px;
+	border: 1px solid #FFF;
+}
+#feelinglucky{
+	position: absolute;
+	top: 400px;
+	left: 920px;
+}
+
+#googlesearch, #feelinglucky{
+	border: none;
+	padding:  12px 14px 12px 14px;
+	background-color: #F3F3F3;
+	color: #6B6B6B;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 2px;
+}
+#googlesearch:hover, #feelinglucky:hover{
+	border: 1px solid #E4E4E4;
+	color: black;
+}
+#btmnavbar{
+	list-style-type: none;
+	position: fixed;
+	bottom: 0;
+	background-color: #F3F3F3;
+	width: 100%;
+	padding: 0;
+	display: block;
+	height: 40px;
+	margin: 0;
+	border-top: 1px solid #E4E4E4;
+	font-size: 14px;
+	color: #5F5F5F;
+}
+#btmnavbar .left{
+	float: left;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+#btmnavbar .right{
+	float: right;
+	margin-right: 15px;
+	margin-top: 4px;
+}
+#btmnavbar a {
+	display: block;
+	text-decoration: none;
+	padding: 8px;
+}
+#btmnavbar a:hover{
+	text-decoration: underline;
+}
+#btmnavbar a:visited{
+	color: #5F5F5F;
+}
